@@ -1,0 +1,76 @@
+#register {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.form__container {
+  display: flex;
+}
+
+.form__left {
+  width: 50%;
+}
+
+.form__right {
+  width: 50%;
+}
+
+.btn__sign--up {
+  padding: 20px 70px;
+}
+
+.form__card--logo {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-left: 50px;
+}
+
+.form__card--logo img {
+  width: 176px;
+  height: 48px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .form__right {
+    width: 100%;
+  }
+
+  .form__left {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .form__right {
+    padding: 30px;
+  }
+  .form__title {
+    font-size: 26px;
+    text-align: center;
+  }
+  .form__text {
+    font-size: 14px;
+    text-align: center;
+  }
+  .form {
+    margin-top: 40px;
+  }
+  .btn__sign--up {
+    padding: 15px 50px !important;
+  }
+  .btn__emerge {
+    padding: 15px 25px;
+  }
+  .form__text--green {
+    font-size: 12px;
+  }
+  .form__label {
+    font-size: 16px;
+  }
+  .sign__in {
+    font-size: 14px;
+  }
+}

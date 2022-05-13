@@ -1,0 +1,124 @@
+/* Variable color */
+:root {
+  --white: #f3f3f3;
+  --green: #0c3122;
+  --light-green: #f0f2f1;
+  --dark-green: #3d6c36;
+  --circle-green: #6bbb5c;
+  --dark-grey: #333333;
+  --light-grey: #8f8f8f;
+  --emerge-grey: #ebecf0;
+  --grey: #707070;
+  --red: #fc562d;
+  /* --text-color: #707070; */
+}
+
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  background-color: var(--light-green);
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Class General */
+
+/* Div position */
+.div__left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.div__center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div__right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.div__space--between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Dash line */
+.dash__line {
+  width: 86px;
+  height: 3px !important;
+  color: var(--light-grey);
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* Button */
+.btn__emerge {
+  display: block;
+  padding: 13px 25px;
+  color: var(--dark-green);
+  background-color: var(--emerge-grey);
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  box-shadow: 7px 7px 20px 2px rgb(151 167 195 / 50%), -7px -7px 10px 2px #fff;
+}
+
+.btn__emerge:active {
+  box-shadow: inset 7px 7px 20px 2px rgb(151 167 195 / 50%), inset -7px -7px 10px 2px #fff;
+}
+
+/* Input Indented*/
+.input__indented {
+  width: 100%;
+  background-color: var(--emerge-grey);
+  color: var(--circle-green);
+  border: none;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: inset 6px 6px 10px 2px #cccbcb, inset 4px 2px 10px 2px #fff;
+}
+
+.input__indented:focus-visible {
+  outline: none;
+}
+
+.input__indented::placeholder {
+  color: var(--circle-green);
+}
+
+/* Section animation */
+.section {
+  transition: transform 1s, opacity 1s;
+}
+
+.section__hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}

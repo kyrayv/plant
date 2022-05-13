@@ -1,0 +1,74 @@
+/* Box */
+.box {
+  background-color: var(--light-green);
+  box-shadow: 10px 10px 20px 2px rgb(151 167 195 / 50%), -10px -10px 10px 5px #fff;
+  padding: 40px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 1s;
+  width: 100%;
+}
+
+.box__icon {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  background-color: var(--circle-green);
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.box__icon i {
+  color: #fff;
+  font-size: 33px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box__title {
+  font-size: 22px;
+  font-weight: 550;
+  color: var(--dark-green);
+}
+
+.box__name {
+  color: var(--circle-green);
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.box__text {
+  font-size: 16px;
+  line-height: 32px;
+  color: var(--light-grey);
+}
+
+/* Hover box */
+.box:hover {
+  background-color: var(--circle-green);
+}
+
+.box:hover .box__icon {
+  background-color: #fff;
+}
+
+.box:hover .box__icon i {
+  color: var(--circle-green);
+}
+
+.box:hover .box__title {
+  color: #fff;
+}
+
+.box:hover .box__name {
+  color: #fff;
+}
+
+.box:hover .box__text {
+  color: #fff;
+}

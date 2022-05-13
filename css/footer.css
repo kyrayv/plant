@@ -1,0 +1,143 @@
+/* Footer */
+#footer {
+  background-color: var(--light-green);
+  border-top: 1px solid var(--light-grey);
+}
+
+.footer__logo {
+  width: 98px;
+  height: 78px;
+  margin-bottom: 35px;
+}
+
+.footer__social {
+  display: flex;
+  align-items: center;
+}
+
+.footer__text {
+  color: var(--light-grey);
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.footer__link {
+  transition: all 0.3s;
+}
+
+.footer__link:hover {
+  color: var(--dark-green);
+  font-weight: 600;
+}
+
+.footer__circle--icon {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  background-color: var(--light-green);
+  box-shadow: 5px 5px 10px 0px var(--light-grey), -5px -5px 10px 0px #fff;
+  margin-top: 20px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__icon {
+  color: var(--circle-green);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.footer__title {
+  color: var(--dark-green);
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+
+.footer__subscribe--tablet {
+  width: 100%;
+}
+
+.footer__subscribe--mobile {
+  display: none;
+}
+
+.footer__input {
+  margin: 20px 0 30px 0;
+}
+
+/* Responsive */
+/* Tablet */
+@media only screen and (max-width: 1024px) {
+  .footer__logo {
+    width: 70px;
+    height: 60px;
+  }
+
+  .footer__text {
+    font-size: 12px;
+  }
+
+  .footer__title {
+    font-size: 16px;
+  }
+
+  .footer__circle--icon {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  .footer__icon {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .footer__column--first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .footer__logo--link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer__column--first__text {
+    text-align: center !important;
+  }
+
+  .footer__social {
+    display: none;
+  }
+
+  .footer__text {
+    text-align: left;
+  }
+
+  .footer__title {
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .footer__subscribe--tablet {
+    display: none;
+  }
+
+  .footer__subscribe--mobile {
+    display: block;
+    width: 100%;
+  }
+  .input__indented {
+    padding: 15px !important;
+  }
+  .btn__emerge {
+    padding: 15px !important;
+  }
+}

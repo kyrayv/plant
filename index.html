@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap"
+        rel="stylesheet">
+
+    <!-- Font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/card.css">
+    <link rel="stylesheet" href="./css/box.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <!-- Home page -->
+    <div id="home">
+
+        <!-- Header -->
+        <section id="header">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <button class="header__button--toggle">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="./index.html">
+                        <img src="./img/LOGO-02.png" alt="" class="logo">
+                    </a>
+                    <div class="navbar-menu">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="header__sitemap active" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="header__sitemap" href="./about.html">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="header__sitemap" href="./product.html">Our products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="header__sitemap" href="./contact.html">Contact us</a>
+                            </li>
+                        </ul>
+                        <div class="div__center">
+                            <i class="fa-solid fa-magnifying-glass header__icon"></i>
+                            <i class="fa-solid fa-cart-shopping header__icon"></i>
+                            <a href="./login.html">
+                                <i class="fa-solid fa-user header__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header__toggle--menu hidden">
+                        <ul>
+                            <li>
+                                <a class="header__sitemap active" href="./index.html">Home</a>
+                            </li>
+                            <li>
+                                <a class="header__sitemap" href="./about.html">About us</a>
+                            </li>
+                            <li>
+                                <a class="header__sitemap" href="./product.html">Our products</a>
+                            </li>
+                            <li>
+                                <a class="header__sitemap" href="./contact.html">Contact us</a>
+                            </li>
+                        </ul>
+                        <div class="header__toggle--menu__copyright">
+                            <p>Copyright © 2022 Plant Shop By Kyray Vy. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                    <div class="overlay hidden"></div>
+                </nav>
+            </div>
+        </section>
+
+        <!-- Intro -->
+        <section id="intro">
+            <div class="container">
+                <div class="row">
+                    <div class="intro__left">
+                        <h1 class="intro__title">HOUSEPLANT</h1>
+                        <h1 class="intro__title">THE PERFECT CHOICE</h1>
+                        <hr class="dash__line">
+                        <div class="intro__content">
+                            <p>A good house plant is next best thing to a live in housekeeper. They add a pizzazz and
+                                cosiness wherever you place them, and they can even help you get a better night's sleep.
+                                Get ready to grab your gardening gloves and take a big deep breath of fresh air. In
+                                addition to beding a dramatic accent in a room.</p>
+                        </div>
+                        <button class="btn__emerge">Get Started</button>
+                    </div>
+                    <div class="intro__right">
+
+                        <img src="./img/Artboard–3.png" alt="" class="intro__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NEW ARRIVALS -->
+        <section id="arrival" class="section">
+            <h1 class="arrival__title">NEW ARRIVALS</h1>
+            <div class="container">
+                <div class="row" style="row-gap: 50px;">
+                    <div class="col-6 col-sm-6 col-xl-4 col-md-6 div__center">
+                        <div class="card">
+                            <div class="card__img">
+                                <img src="./img/plant1.png" class="card-img-top" alt="...">
+                                <div class="card__hot">
+                                    <p class="card__hot--text">HOT</p>
+                                    <div class="card__hot--icon"></div>
+                                </div>
+                                <div class="card__menu">
+                                    <button class="card__menu--btn">
+                                        <i class="fa-solid fa-cart-shopping card__menu--icon"></i>
+                                    </button>
+                                    <button class="card__menu--btn">
+                                        <i class="fa-solid fa-heart card__menu--icon"></i>
+                                    </button>
+                                    <button class="card__menu--btn">
+                                        <i class="fa-solid fa-magnifying-glass-plus card__menu--icon"></i>
+                                    </button>
+                                    <button class="card__menu--btn">
+                                        <i class="fa-solid fa-share-nodes card__menu--icon"></i>
+                                    </button>
+                                </div>
+                                <button class="card__button--like">
+                                    <i class="fa-regular fa-heart icon__like--outline" style="display: block;"></i>
+                                    <i class="fa-solid fa-heart icon__like--solid" style="display: none;"></i>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <div class="card__detail">
+                                    <h5 class="card-name">Roses Plant</h5>
+                                    <p class="card-price">$18.00</p>
+                                </div>
+                                <button class="card__button--add">
+                                    <i class="fa-solid fa-plus icon__add"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-xl-4 col-md-6 div__center">
+                        <div class="card">
+                            <div class="card__img">
+                                <img src="./img/plant2.png" class="card-img-top" alt="...">
+                                <div class="card__hot">
+                                    <p class="card__hot--text">HOT</p>
+                                    <div class="card__hot--icon"></div>
+                                </div>
+                                <div class="card__menu">
+                                    <button class="card__menu--btn">
+                                        <i class="fa-solid fa-cart-shopping card__menu--icon"></i>
+                                    </button>
+                                    <button class="card__menu--btn">
+                                        <i class="fa-solid fa-heart card__menu--icon"></i>
+                                    </button>
+                                    <button class="card__menu--btn">
+                                        <i class="fa-solid fa-magnifying-glass-plus card__menu--icon"></i>
+                                    </button>
+                                    <button class="card__menu--btn">
+                                        <i class="fa-solid fa-share-nodes card__menu--icon"></i>
+                                    </button>
+                                </div>
+                                <button class="card__button--like">
+                                    <i class="fa-regular fa-heart icon__like--outline" style="display: block;"></i>
+                                    <i class="fa-solid fa-heart icon__like--solid" style="display: none;"></i>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <div class="card__detail">
+                                    <h5 class="card-name">Autor Sem</h5>
+                                    <p class="card-price">$18.00</p>
+                                </div>
+                                <button class="card__button--add">
+                                    <i class="fa-solid fa-plus icon__add"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-xl-4 col-md-6 div__center">
+                        <div class="card">
+                            <div class="card__img">
+                                <img src="./img/plant3.png" class="card-img-top" alt="...">
+                                <div class="card__hot">
+                                    <p class="card__hot--text">HOT</p>
+                                    <div class="card__hot--icon"></div>
+                                </div>
+                                <div class="card__menu">
+                                    <button class="card__menu--btn">
+                                        <i class="fa-solid fa-cart-shopping card__menu--icon"></i>
+                                    </button>
+                                    <button class="card__menu--btn">
+                                        <i class="fa-solid fa-heart card__menu--icon"></i>
+                                    </button>
+                                    <button class="card__menu--btn">
+                                        <i class="fa-solid fa-magnifying-glass-plus card__menu--icon"></i>
+                                    </button>
+                                    <button class="card__menu--btn">
+                                        <i class="fa-solid fa-share-nodes card__menu--icon"></i>
+                                    </button>
+                                </div>
+                                <button class="card__button--like">
+                                    <i class="fa-regular fa-heart icon__like--outline" style="display: block;"></i>
+                                    <i class="fa-solid fa-heart icon__like--solid" style="display: none;"></i>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <div class="card__detail">
+                                    <h5 class="card-name">Bamboo Pyramid</h5>
+                                    <p class="card-price">$18.00</p>
+                                </div>
+                                <button class="card__button--add">
+                                    <i class="fa-solid fa-plus icon__add"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-xl-4 col-md-6 div__center">
+                        <div class="card">
+                            <div class="card__img">
+                                <img src="./img/plant4.png" class="card-img-top" alt="...">
+                                <div class="card__hot">
+                                    <p class="card__hot--text">HOT</p>
+                                    <div class="card__hot--icon"></div>
+                                </div>
+                                <div class="card__menu">
+                                    <button class="card__menu--btn">
+                                        <i class="fa-solid fa-cart-shopping card__menu--icon"></i>
+                                    </button>
+                                    <button class="card__menu--btn">
+                                        <i class="fa-solid fa-heart card__menu--icon"></i>
+                                    </button>
+                                    <button class="card__menu--btn">
+                                        <i class="fa-solid fa-magnifying-glass-plus card__menu--icon"></i>
+                                    </button>
+                                    <button class="card__menu--btn">
+                                        <i class="fa-solid fa-share-nodes card__menu--icon"></i>
+                                    </button>
+                                </div>
+                                <button class="card__button--like">
+                                    <i class="fa-regular fa-heart icon__like--outline" style="display: block;"></i>
+                                    <i class="fa-solid fa-heart icon__like--solid" style="display: none;"></i>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <div class="card__detail">
+                                    <h5 class="card-name">Drift Popcorn</h5>
+                                    <p class="card-price">$18.00</p>
+                                </div>
+                                <button class="card__button--add">
+                                    <i class="fa-solid fa-plus icon__add"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-xl-4 col-md-6 div__center">
+                        <div class="card">
+                            <div class="card__img">
+                                <img src="./img/plant5.png" class="card-img-top" alt="...">
+                                <div class="card__hot">
+                                    <p class="card__hot--text">HOT</p>
+                                    <div class="card__hot--icon"></div>
+                                </div>
+                                <div class="card__menu">
+                                    <button class="card__menu--btn">
+                                        <i class="fa-solid fa-cart-shopping card__menu--icon"></i>
+                                    </button>
+                                    <button class="card__menu--btn">
+                                        <i class="fa-solid fa-heart card__menu--icon"></i>
+                                    </button>
+                                    <button class="card__menu--btn">
+                                        <i class="fa-solid fa-magnifying-glass-plus card__menu--icon"></i>
+                                    </button>
+                                    <button class="card__menu--btn">
+                                        <i class="fa-solid fa-share-nodes card__menu--icon"></i>
+                                    </button>
+                                </div>
+                                <button class="card__button--like">
+                                    <i class="fa-regular fa-heart icon__like--outline" style="display: block;"></i>
+                                    <i class="fa-solid fa-heart icon__like--solid" style="display: none;"></i>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <div class="card__detail">
+                                    <h5 class="card-name">Gallon Pot</h5>
+                                    <p class="card-price">$18.00</p>
+                                </div>
+                                <button class="card__button--add">
+                                    <i class="fa-solid fa-plus icon__add"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-xl-4 col-md-6 div__center">
+                        <div class="card">
+                            <div class="card__img">
+                                <img src="./img/plant6.png" class="card-img-top" alt="...">
+                                <div class="card__hot">
+                                    <p class="card__hot--text">HOT</p>
+                                    <div class="card__hot--icon"></div>
+                                </div>
+                                <div class="card__menu">
+                                    <button class="card__menu--btn">
+                                        <i class="fa-solid fa-cart-shopping card__menu--icon"></i>
+                                    </button>
+                                    <button class="card__menu--btn">
+                                        <i class="fa-solid fa-heart card__menu--icon"></i>
+                                    </button>
+                                    <button class="card__menu--btn">
+                                        <i class="fa-solid fa-magnifying-glass-plus card__menu--icon"></i>
+                                    </button>
+                                    <button class="card__menu--btn">
+                                        <i class="fa-solid fa-share-nodes card__menu--icon"></i>
+                                    </button>
+                                </div>
+                                <button class="card__button--like">
+                                    <i class="fa-regular fa-heart icon__like--outline" style="display: block;"></i>
+                                    <i class="fa-solid fa-heart icon__like--solid" style="display: none;"></i>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <div class="card__detail">
+                                    <h5 class="card-name">Alex Dwarf</h5>
+                                    <p class="card-price">$18.00</p>
+                                </div>
+                                <button class="card__button--add">
+                                    <i class="fa-solid fa-plus icon__add"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About us -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="about__left">
+                        <img src="./img/Artboard–5.png" alt="" class="about__left--img">
+                    </div>
+                    <div class="about__right div__right">
+                        <div>
+                            <h2 class="about__title">About us</h2>
+                            <hr class="dash__line">
+                            <div class="about__content">
+                                <p>We believe in a world where you have total freedom to be you, without judgement. To
+                                    experiment. To express yourself. To be brave and grab life as the extraordinary
+                                    adventure it is. To be brave and grab life as the extraordinary adventure it is.</p>
+                            </div>
+                            <button class="btn__emerge">Explored Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Choosing the right plant -->
+        <section id="choosing" class="section">
+            <div class="container">
+                <h2>CHOOSING THE RIGHT PLANT</h2>
+                <div class="choosing__row">
+                    <div class="box">
+                        <div class="box__icon">
+                            <i class="fa-solid fa-tree"></i>
+                        </div>
+                        <div>
+                            <h3 class="box__title">Garden plants</h3>
+                            <p class="box__text">Empowering all people to be plant people a collection of articles</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box__icon">
+                            <i class="fa-brands fa-pagelines"></i>
+                        </div>
+                        <div>
+                            <h3 class="box__title">Office plants</h3>
+                            <p class="box__text">Empowering all people to be plant people a collection of articles</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box__icon">
+                            <i class="fa-brands fa-envira"></i>
+                        </div>
+                        <div>
+                            <h3 class="box__title">Office plants</h3>
+                            <p class="box__text">Empowering all people to be plant people a collection of articles</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Review -->
+        <section id="review" class="section">
+            <div class="container">
+                <div class="slider">
+                    <div class="slide slide--1 review__box">
+                        <div class="review__content">
+                            <h5 class="review__header">Virtual Plant Care</h5>
+                            <blockquote class="review__text">
+                                Great experience: meeting started on time, Juliette answered all our questions very
+                                clearly. She was very polite and patient -repeated for us, to make sure we are on the
+                                same page. Juliette asked for pictures - initial and after we started to work with
+                                ponytail Palm, following recommendation after online consultation. I definitely
+                                recommend My City Plants service, including virtual consultation.
+                                Thank you very much from us and our plants.
+                            </blockquote>
+                            <address class="review__author">
+                                <img src="img/avatar1.jpg" alt="" class="review__photo" />
+                                <h6 class="review__name">Vy Le</h6>
+                                <p class="review__location">HCM City, Vietnam</p>
+                            </address>
+                        </div>
+                    </div>
+
+                    <div class="slide slide--2 review__box">
+                        <div class="review__content">
+                            <h5 class="review__header">A Successful Purchase</h5>
+                            <blockquote class="review__text">
+                                Purchased. Sanseviera Classico with a Charcoal Metallic planter and was very pleased
+                                with the quality and the experience of purchasing the plant. I have been using other NYC
+                                area retailers for years and they've all declined in quality, selection and choice. My
+                                City Plants kept me informed of the delivery progress and were easy and very pleasant to
+                                deal with. The tear sheet with care instructions is also really useful and well
+                                presented. The first of many purchases I think.
+                            </blockquote>
+                            <address class="review__author">
+                                <img src="img/avatar2.jpg" alt="" class="review__photo" />
+                                <h6 class="review__name">Tram Huynh</h6>
+                                <p class="review__location">HCM City, Vietnam</p>
+                            </address>
+                        </div>
+                    </div>
+
+                    <div class="slide slide--3 review__box">
+                        <div class="review__content">
+                            <h5 class="review__header">Work as expected</h5>
+                            <blockquote class="review__text">
+                                So far, the meter works as expected. But Im not sure how to use the information. I have
+                                a bird of paradise (4-5 zone) that I just moved to a new pot. The meter reads dry near
+                                the stems but moist two inches from it, and wet in other areas. Should I water my plant
+                                now or wait until more areas are below moist level? This soil moisture meter will
+                                definitely be a stress reliever as to the guessing game relationship with my plants.
+                            </blockquote>
+                            <address class="review__author">
+                                <img src="img/avatar3.jpg" alt="" class="review__photo" />
+                                <h6 class="review__name">Trinh Vo</h6>
+                                <p class="review__location">HCM City, Vietnam</p>
+                            </address>
+                        </div>
+                    </div>
+
+                    <button class="slider__btn slider__btn--left">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </button>
+                    <button class="slider__btn slider__btn--right">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                    <div class="dots"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process -->
+        <section id="process" class="section">
+            <div class="container">
+                <div class="process__title">
+                    <h2>FOLLOW OUR STEPS AND</h2>
+                    <h2>GET YOUR PLANT</h2>
+                </div>
+                <div class="process__row">
+                    <div class="process__box">
+                        <div>
+                            <p class="process__number">01</p>
+                        </div>
+                        <div>
+                            <p class="process__name">Choose plants</p>
+                            <div class="process__desc">
+                                <p>Empowering all people to be plant people a collection of articles</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="process__box">
+                        <div>
+                            <p class="process__number">02</p>
+                        </div>
+                        <div>
+                            <p class="process__name">Place an order</p>
+                            <div class="process__desc">
+                                <p>Empowering all people to be plant people a collection of articles</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="process__box">
+                        <div>
+                            <p class="process__number">03</p>
+                        </div>
+                        <div>
+                            <p class="process__name">Get plant delivered</p>
+                            <div class="process__desc">
+                                <p>Empowering all people to be plant people a collection of articles</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section id="footer">
+            <div class="container">
+                <footer class="py-5">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-3 footer__column--first">
+                            <div>
+                                <a href="#" class="footer__logo--link"><img src="./img/LOGO-06.png" alt=""
+                                        class="footer__logo"></a>
+                                <p class="footer__text footer__column--first__text">Empowering all people to be plant
+                                </p>
+                                <p class="footer__text footer__column--first__text">people a collection of articles </p>
+                                <div class="footer__social">
+                                    <div class="footer__circle--icon">
+                                        <i class="fa-brands fa-facebook footer__icon"></i>
+                                    </div>
+                                    <div class="footer__circle--icon">
+                                        <i class="fa-brands fa-twitter footer__icon"></i>
+                                    </div>
+                                    <div class="footer__circle--icon">
+                                        <i class="fa-brands fa-instagram footer__icon"></i>
+                                    </div>
+                                    <div class="footer__circle--icon">
+                                        <i class="fa-brands fa-linkedin-in footer__icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-sm-6 col-md-2 footer__column--second">
+                            <h5 class="footer__title">Navigation</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2"><a href="./index.html"
+                                        class="nav-link footer__link p-0 footer__text">Home</a></li>
+                                <li class="nav-item mb-2"><a href="./about.html"
+                                        class="nav-link footer__link p-0 footer__text">About
+                                        us</a></li>
+                                <li class="nav-item mb-2"><a href="./product.html"
+                                        class="nav-link footer__link p-0 footer__text">Our
+                                        products</a>
+                                </li>
+                                <li class="nav-item mb-2"><a href="./contact.html"
+                                        class="nav-link footer__link p-0 footer__text">Contact
+                                        us</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-6 col-sm-6 col-md-3 footer__column--third">
+                            <h5 class="footer__title">Information</h5>
+                            <ul class="nav flex-column">
+                                <p class="footer__text">Address: 377 Greenwich St., New</p>
+                                <p class="footer__text">York, United States</p>
+                                <p class="footer__text">Phone: +99 (0) 101 0000 888</p>
+                                <p class="footer__text">Email: Info@yourdomain.com</p>
+                            </ul>
+                        </div>
+
+                        <div class="col-6 col-sm-6 col-md-4 footer__column--last">
+
+                            <h5 class="footer__title">Subscribe Us!</h5>
+                            <p class="footer__text">Which bears and sustains us, as it floats around</p>
+                            <p class="footer__text">us in an eternity of bliss</p>
+                            <div class="footer__subscribe--tablet">
+                                <input type="text" class="input__indented footer__input" placeholder="Email address">
+                                <button class="btn__emerge w-100" type="button">Subscribe</button>
+                            </div>
+
+                        </div>
+
+                        <div class="footer__subscribe--mobile">
+                            <input type="text" class="input__indented footer__input" placeholder="Email address">
+                            <button class="btn__emerge w-100" type="button">Subscribe</button>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between py-4 my-4 border-top">
+                        <p class="footer__text">Terms of use | Privacy Environmental Policy</p>
+                        <p class="footer__text">Copyright © 2022 Plant Shop By Kyray Vy. All Rights Reserved.</p>
+                    </div>
+                </footer>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- JS Boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- JS here -->
+    <script src="./js/main.js"></script>
+    <script src="./js/home.js"></script>
+</body>
+
+</html>

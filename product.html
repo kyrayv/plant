@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap"
+        rel="stylesheet">
+
+    <!-- Font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/card.css">
+    <link rel="stylesheet" href="./css/box.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/product.css">
+</head>
+
+<body>
+    <div id="product">
+
+        <!-- Header -->
+        <section id="header">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <button class="header__button--toggle">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="./index.html">
+                        <img src="./img/LOGO-02.png" alt="" class="logo">
+                    </a>
+                    <div class="navbar-menu">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="header__sitemap" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="header__sitemap" href="./about.html">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="header__sitemap active" href="./product.html">Our products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="header__sitemap" href="./contact.html">Contact us</a>
+                            </li>
+                        </ul>
+                        <div class="div__center">
+                            <i class="fa-solid fa-magnifying-glass header__icon"></i>
+                            <i class="fa-solid fa-cart-shopping header__icon"></i>
+                            <a href="./login.html">
+                                <i class="fa-solid fa-user header__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header__toggle--menu hidden">
+                        <ul>
+                            <li>
+                                <a class="header__sitemap" href="./index.html">Home</a>
+                            </li>
+                            <li>
+                                <a class="header__sitemap" href="./about.html">About us</a>
+                            </li>
+                            <li>
+                                <a class="header__sitemap active" href="./product.html">Our products</a>
+                            </li>
+                            <li>
+                                <a class="header__sitemap" href="./contact.html">Contact us</a>
+                            </li>
+                        </ul>
+                        <div class="header__toggle--menu__copyright">
+                            <p>Copyright © 2022 Plant Shop By Kyray Vy. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                    <div class="overlay hidden"></div>
+                </nav>
+            </div>
+        </section>
+
+        <!-- Intro -->
+        <div id="intro">
+            <div class="container">
+                <div class="intro__top">
+                    <div class="intro__top--left col-12 col-sm-12 col-md-6">
+                        <p class="intro__title">HOUSEPLANT</p>
+                        <p class="intro__title">AIR PURIFIER PLANTS</p>
+                        <hr class="dash__line">
+                        <div class="intro__desc">
+                            <p class="intro__text">
+                                Air purifying plants are a package of benefits. Planting them is the
+                                most cost-effective and healthy way to breathe pure and better air. It
+                                also helps improve the atmosphere and productivity around you.
+                            </p>
+                        </div>
+                        <div class="intro__btn">
+                            <button class="btn__emerge">Explored Now</button>
+                            <button class="btn__play">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                            <p class="intro__text--green">HOW TO BUY</p>
+                        </div>
+                        <div class="intro__detail">
+                            <div style="margin-left: 50px;">
+                                <p class="intro__text">
+                                    With rising air pollution in not only urban areas but also rural
+                                    and semi-urban, air-purifying plants have become essential to
+                                    our physical and mental wellbeing.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="intro__top--right d-none d-md-block col-md-6">
+                        <img src="./img/Artboard–5.png" alt="">
+                        <div class="intro__notify">
+                            <div class="intro__notify--square">
+                                <i class="fa-solid fa-motorcycle"></i>
+                            </div>
+                            <div class="intro__notify--text">
+                                <div class="intro__notify--text__top">
+                                    <i class="fa-solid fa-circle"></i>
+                                    <span>2 Hours</span>
+                                </div>
+                                <div class="intro__notify--text__bottom">
+                                    <span>Fast Delivery</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                .<div class="intro__detail--tablet">
+                    <div style="margin-left: 50px;">
+                        <p class="intro__text">
+                            With rising air pollution in not only urban areas but also rural
+                            and semi-urban, air-purifying plants have become essential to
+                            our physical and mental wellbeing.
+                        </p>
+                    </div>
+                </div>
+                <div class="intro__bottom section">
+                    <div class="intro__bottom--title">
+                        <p>WHAT DOES PLANT DO TO YOUR HOUSE?</p>
+                    </div>
+                    <div class="intro__bottom--text">
+                        <p>While all plants purify the air, air-purifying indoor plants remove a wide range of toxins
+                            from indoor air. These plants not only improve indoor air quality, but they also look
+                            stunning from a home decor.</p>
+                    </div>
+                    <button class="intro__bottom--btn">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product -->
+        <div id="product" class="section">
+            <div class="container">
+                <h2 class="product__title">PRODUCT CATEGORIES</h2>
+                <div class="product__categories">
+                    <div class="product__categories--left">
+                        <ul class="product__categories--list">
+                            <li class="product__categories--item">
+                                <a href="#" class="product__categories--link active">All</a>
+                            </li>
+                            <li class="product__categories--item">
+                                <a href="#" class="product__categories--link">House Plants</a>
+                            </li>
+                            <li class="product__categories--item">
+                                <a href="#" class="product__categories--link">Potter Plants</a>
+                            </li>
+                            <li class="product__categories--item">
+                                <a href="#" class="product__categories--link">Seeds</a>
+                            </li>
+                            <li class="product__categories--item">
+                                <a href="#" class="product__categories--link">Small Plants</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="product__categories--left__tablet">
+                        <input type="text" class="product__categories--input" placeholder="Search Product..." />
+                        <button class="product__categories--btn__search">
+                            <i class="fa-solid fa-magnifying-glass icon__search"></i>
+                        </button>
+                    </div>
+                    <div class="product__categories--right">
+                        <button class="product__categories--btn__filter">
+                            <i class="fa-solid fa-angle-down"></i>
+                            <span>Filter</span>
+
+                        </button>
+                        <button class="product__categories--btn__sort">
+                            <i class="fa-solid fa-arrow-down-a-z icon__sort-a-z" style="display: block;"></i>
+                            <i class="fa-solid fa-arrow-down-z-a icon__sort-z-a" style="display: none;"></i>
+                            <span>Sort By</span>
+                        </button>
+                        <div class="list__filter">
+                            <li class="list__item">
+                                <a href="#" class="list__filter--link active">All</a>
+                            </li>
+                            <li class="list__item">
+                                <a href="#" class="list__filter--link">House Plants</a>
+                            </li>
+                            <li class="list__item">
+                                <a href="#" class="list__filter--link">Potter Plants</a>
+                            </li>
+                            <li class="list__item">
+                                <a href="#" class="list__filter--link">Seeds</a>
+                            </li>
+                            <li class="list__item">
+                                <a href="#" class="list__filter--link">Small Plants</a>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+                <div class="row product__row" style="row-gap: 100px;">
+                </div>
+                <div class="div__center" style="margin-top: 100px;">
+                    <div class="product__pagination">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Reason -->
+        <div id="reason" class="section">
+            <div class="container">
+                <h2 class="reason__title" style="margin-bottom: 65px;">REASON TO SHOP WITH US</h2>
+                <div class="reason__row">
+                    <div class="box">
+                        <div class="box__icon" style="margin: 0 auto 25px;">
+                            <i class="fa-solid fa-truck"></i>
+                        </div>
+                        <div>
+                            <p class="box__title text-center">Free shipping</p>
+                            <p class="box__text text-center">On in stocks items ordered by 5pm</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box__icon" style="margin: 0 auto 25px;">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                        </div>
+                        <div>
+                            <p class="box__title text-center">Accept Multi Currency</p>
+                            <p class="box__text text-center">On in stocks items ordered by 5pm</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box__icon" style="margin: 0 auto 25px;">
+                            <i class="fa-solid fa-gears"></i>
+                        </div>
+                        <div>
+                            <p class="box__title text-center">Custom & Service</p>
+                            <p class="box__text text-center">Support Online 24/7</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <section id="footer">
+            <div class="container">
+                <footer class="py-5">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-3 footer__column--first">
+                            <div>
+                                <a href="#" class="footer__logo--link"><img src="./img/LOGO-06.png" alt=""
+                                        class="footer__logo"></a>
+                                <p class="footer__text footer__column--first__text">Empowering all people to be plant
+                                </p>
+                                <p class="footer__text footer__column--first__text">people a collection of articles </p>
+                                <div class="footer__social">
+                                    <div class="footer__circle--icon">
+                                        <i class="fa-brands fa-facebook footer__icon"></i>
+                                    </div>
+                                    <div class="footer__circle--icon">
+                                        <i class="fa-brands fa-twitter footer__icon"></i>
+                                    </div>
+                                    <div class="footer__circle--icon">
+                                        <i class="fa-brands fa-instagram footer__icon"></i>
+                                    </div>
+                                    <div class="footer__circle--icon">
+                                        <i class="fa-brands fa-linkedin-in footer__icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-sm-6 col-md-2 footer__column--second">
+                            <h5 class="footer__title">Navigation</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2"><a href="./index.html"
+                                        class="nav-link footer__link p-0 footer__text">Home</a></li>
+                                <li class="nav-item mb-2"><a href="./about.html"
+                                        class="nav-link footer__link p-0 footer__text">About
+                                        us</a></li>
+                                <li class="nav-item mb-2"><a href="./product.html"
+                                        class="nav-link footer__link p-0 footer__text">Our
+                                        products</a>
+                                </li>
+                                <li class="nav-item mb-2"><a href="./contact.html"
+                                        class="nav-link footer__link p-0 footer__text">Contact
+                                        us</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-6 col-sm-6 col-md-3 footer__column--third">
+                            <h5 class="footer__title">Information</h5>
+                            <ul class="nav flex-column">
+                                <p class="footer__text">Address: 377 Greenwich St., New</p>
+                                <p class="footer__text">York, United States</p>
+                                <p class="footer__text">Phone: +99 (0) 101 0000 888</p>
+                                <p class="footer__text">Email: Info@yourdomain.com</p>
+                            </ul>
+                        </div>
+
+                        <div class="col-6 col-sm-6 col-md-4 footer__column--last">
+
+                            <h5 class="footer__title">Subscribe Us!</h5>
+                            <p class="footer__text">Which bears and sustains us, as it floats around</p>
+                            <p class="footer__text">us in an eternity of bliss</p>
+                            <div class="footer__subscribe--tablet">
+                                <input type="text" class="input__indented footer__input" placeholder="Email address">
+                                <button class="btn__emerge w-100" type="button">Subscribe</button>
+                            </div>
+
+                        </div>
+
+                        <div class="footer__subscribe--mobile">
+                            <input type="text" class="input__indented footer__input" placeholder="Email address">
+                            <button class="btn__emerge w-100" type="button">Subscribe</button>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between py-4 my-4 border-top">
+                        <p class="footer__text">Terms of use | Privacy Environmental Policy</p>
+                        <p class="footer__text">Copyright © 2022 Plant Shop By Kyray Vy. All Rights Reserved.</p>
+                    </div>
+                </footer>
+            </div>
+        </section>
+    </div>
+
+    <script src="./js/main.js"></script>
+    <script type="module" src="./js/product.js"></script>
+</body>
+
+</html>
